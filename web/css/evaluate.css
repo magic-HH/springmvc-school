@@ -1,0 +1,77 @@
+.nam-item .head-portrait{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.fa-circle{
+  display: none;
+}
+
+.row{
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .5rem;
+  padding: 1rem;
+}
+
+.col-3{
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .5rem;
+  margin: 1rem 2.5rem;
+  padding: .5rem;
+}
+
+.top{
+  display: flex;
+  flex-flow: row nowrap;
+}
+.imgWrap img{
+  width: 5rem;
+  height: 5rem;
+}
+
+.Detil {
+  margin-left: .8rem;
+  padding: .6rem 0;
+}
+
+.til {
+  font-weight: bold;
+}
+
+.stars ul{
+  list-style: none;
+  margin: 0;
+  padding: .3rem 0;
+  font-size: 1.3rem;
+}
+.stars ul li {
+  float: left;
+  width: 1.4rem;
+  cursor: pointer;
+}
+
+.body textarea{
+  display: block;
+  border: none;
+  outline: none;
+  resize:none;
+  padding: .5rem;
+  width: 16rem;
+  /* height: 3rem; */
+  background-color: #eee;
+  border-radius: .5rem;
+  margin: 1rem 0;
+  font-size: .8rem;
+}
+
+.foot input {
+  cursor: pointer;
+}
+
+
+
+.fa-star{
+  color: red;
+}

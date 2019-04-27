@@ -1,0 +1,22 @@
+.nam-item .head-portrait{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+}
+.dropdown-menu{
+    left: -50px;
+}
+.nam-item .head-portrait img{
+  display: block;
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+}
+.dropdown-item{
+  padding: .25rem 0.5rem;
+}
+.container-fluid table{
+  text-align: center;
+}

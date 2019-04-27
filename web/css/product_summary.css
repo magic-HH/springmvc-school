@@ -1,0 +1,12 @@
+#footerSection {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0;
+}

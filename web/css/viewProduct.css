@@ -1,0 +1,103 @@
+input[type="button"]{
+  cursor: pointer;
+}
+
+.nam-item .head-portrait {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.fa-circle {
+  display: none;
+}
+
+.userOrder {
+  padding: 0;
+}
+
+.wrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.wrap .food {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 15px 30px;
+  padding: 10px;
+  flex-basis: 300px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.foodImg {
+  width: 100px;
+  height: 106px;
+}
+
+.foodWrap {
+  padding: 5px 10px;
+}
+
+.foodName a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.foodIntroduce{
+  margin: 6px 0 12px;
+  font-size: 12px;
+  color: grey;
+}
+
+.foodPrice {
+  margin-right: 1rem;
+  color: red;
+}
+
+.foodImg img {
+  width: 100px;
+  height: 106px;
+}
+
+.foodSize{
+  color: blue;
+}
+
+.card-footer{
+  text-align: right;
+}
+
+.card-footer button{
+  width: 80px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.addModal h4{
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.addModal form{
+  text-align: center;
+}
+
+.file{
+  width: 100%;
+}
+
+.editPrice {
+  width: 35px;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 3px;
+  /* display: none; */
+}

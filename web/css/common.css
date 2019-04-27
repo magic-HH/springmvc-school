@@ -1,0 +1,8 @@
+#header .top{
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 100;
+  transform: translateX(-50%);
+  background-color: #eee;
+}

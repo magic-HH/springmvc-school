@@ -1,0 +1,11 @@
+.navbar-inner .brand img {
+  width: 193px;
+  height: 47px;
+}
+
+#footerSection {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,76 @@
+.nam-item .head-portrait {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.fa-circle {
+  display: none;
+}
+
+.userOrder {
+  padding: 0;
+}
+
+.wrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.wrap .food {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 15px 42px;
+  padding: 10px;
+  flex-basis: 280px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.foodImg {
+  width: 100px;
+  height: 100px;
+}
+
+.foodWrap {
+  padding: 5px 10px;
+}
+
+.foodName a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.foodIntroduce{
+  margin: 6px 0 12px;
+  font-size: 12px;
+  color: grey;
+}
+
+.foodPrice {
+  margin-right: 30px;
+  color: red;
+}
+
+.foodImg img {
+  width: 100px;
+}
+
+.foodSize{
+  color: blue;
+}
+
+.card-footer{
+  text-align: right;
+}
+
+.card-footer button{
+  width: 80px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 10px;
+}
